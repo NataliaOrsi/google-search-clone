@@ -227,3 +227,17 @@ footer .lower-footer li a {
         justify-content: center!important;
     }
 }
+
+@media (max-width: 576px) {
+    footer .upper-footer {
+        font-size: 12px;
+    }
+    
+    footer .lower-footer li a {
+        font-size: 11px;
+    }
+
+    footer .lower-footer ul {
+        padding: 5px 20px;
+    }
+}
