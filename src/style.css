@@ -109,12 +109,14 @@ body {
 }
 
 .content form {
-    padding-bottom: 16px;
+    padding: 0 20px 16px;
+    max-width: 100%;
 }
 
 .content .search-bar {
     border: 1px solid lightgray;
-    width: 588px;
+    max-width: 100%;
+    width: 584px;
     height: 44px;
     border-radius: 30px;
     display: flex;
@@ -216,3 +218,12 @@ footer .lower-footer li a {
     font-size: 14px;
 }
 
+@media (max-width: 992px) {
+   footer .lower-left-footer {
+        justify-content: center;
+    }
+    
+   footer .lower-right-footer {
+        justify-content: center!important;
+    }
+}
