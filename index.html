@@ -17,7 +17,6 @@
       src="https://kit.fontawesome.com/7d0bbddace.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <header class="google-header">
@@ -29,7 +28,7 @@
           <a class="nav-link text-link" href="#">Images</a>
         </li>
         <li class="nav-item grid-shadow">
-          <div class=" grid-icon">
+          <div class="grid-icon">
             <a class="nav-link" href="#"
               ><i class="fa-solid fa-ellipsis-vertical dots"></i
               ><i class="fa-solid fa-ellipsis-vertical dots"></i
@@ -38,7 +37,9 @@
           </div>
         </li>
         <li class="nav-item user-icon">
-          <a class="nav-link user-icon-link" href="#"><span class="user-icon-letter">N</span></a>
+          <a class="nav-link user-icon-link" href="#"
+            ><span class="user-icon-letter">N</span></a
+          >
         </li>
       </ul>
     </header>
@@ -49,16 +50,15 @@
           src="./images/google_logo.svg"
           alt="Google Logo"
         />
-        <form>
-          <div class="search-bar">
-            <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            <input class="search-input" type="text" id="search-input" />
-          </div>
-          <div class="search-buttons">
-            <input type="submit" value="Google Search" />
-            <input type="submit" value="I'm Feeling Lucky" />
-          </div>
-        </form>
+        <!-- Form is not supported equally in all browsers, and that mad it not work in some browsers -->
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input class="search-input" type="text" id="search-input" />
+        </div>
+        <div class="search-buttons">
+          <input type="submit" value="Google Search" />
+          <input type="submit" value="I'm Feeling Lucky" />
+        </div>
         <div class="language">
           Google offered in:
           <a href="#">Português (Portugal)</a>
