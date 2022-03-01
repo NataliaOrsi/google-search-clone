@@ -1,6 +1,6 @@
  let searchKeyword = document.querySelector("#search-input");
  searchKeyword.addEventListener("keyup", function (event) {
-   if (event.code === "Enter" || event.code === "NumpadEnter") {
+   if (event.keyCode === 13 || event.code === "Enter" || event.code === "NumpadEnter") {
      search();
    }
  });

@@ -108,7 +108,7 @@ body {
     margin-bottom: 30px;
 }
 
-.content form {
+.content .search-form {
     padding: 0 20px 16px;
     max-width: 100%;
 }
@@ -155,7 +155,7 @@ body {
     justify-content: center;
 }
 
-.content .search-buttons input {
+.content .search-buttons button {
     height: 36px;
     font-size: 14px;
     line-height: 27px;
@@ -167,7 +167,7 @@ body {
     background-color: #f8f9fa;
 }
 
-.content .search-buttons input:hover {
+.content .search-buttons button:hover {
     border: 1px solid lightgray;
     box-shadow: 1px 1px 0px 0px rgb(238, 238, 238);
 }
